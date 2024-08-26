@@ -5,7 +5,7 @@ This repository contains the implementation of a **simple Perceptron neural netw
 
 ## 📝 Introduction
 
-The purpose of this project is to demonstrate the basic workings of a Perceptron neural network using synthetic data. The notebook walks through the steps of data generation, model definition, training, and visualization of the decision boundary.
+The purpose of this project is to demonstrate the basic workings of a **Perceptron neural network** using synthetic data. The notebook walks through the steps of data generation, model definition, training, and visualization of the decision boundary.
 
 
 ## 📓 Notebook Overview
@@ -37,7 +37,7 @@ Here is a sample visualization of **decision boundary**:
 
 ## ⚙️ Installation
 
-To run this project, you'll need to have Python installed along with the following libraries:
+To run this project, you'll need to have **Python** installed along with the following libraries:
 
 - `numpy`
 - `matplotlib`
@@ -60,7 +60,7 @@ git clone https://github.com/yourusername/perceptron-neural-network.git
 cd perceptron-neural-network
 ```
 
-Open the Jupyter notebook:
+Open the **Jupyter notebook**:
 
 ```bash
 Copy code
