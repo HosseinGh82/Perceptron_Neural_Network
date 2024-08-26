@@ -8,6 +8,33 @@ This repository contains the implementation of a simple Perceptron neural networ
 The purpose of this project is to demonstrate the basic workings of a Perceptron neural network using synthetic data. The notebook walks through the steps of data generation, model definition, training, and visualization of the decision boundary.
 
 
+## 📓 Notebook Overview
+
+The notebook is divided into several sections:
+
+- Data Generation: Creates a synthetic dataset with two features and two classes.
+
+- Data Preview: Displays a sample of the generated data and their corresponding labels.
+
+- Label Conversion: Converts the labels from {0, 1} to {-1, 1} to be compatible with the Perceptron.
+
+- Sign Function: Defines a helper function to return the sign of a value.
+
+- Perceptron Model: Implements the Perceptron model class, which includes weight initialization and the forward pass.
+
+- Optimizer: Implements an optimizer to update the model weights and bias.
+
+- Training and Visualization: Trains the Perceptron model and visualizes the decision boundary along with the data points.
+  
+
+## 📊 Results
+
+The notebook outputs a plot showing the data points and the decision boundary learned by the Perceptron. This visualization helps to understand how the Perceptron classifies the data.
+
+Here is a sample visualization of decision boundary:
+![Result](https://github.com/user-attachments/assets/80ac15bc-b958-45ee-a831-119805844129)
+
+
 ## ⚙️ Installation
 
 To run this project, you'll need to have Python installed along with the following libraries:
@@ -40,30 +67,3 @@ Copy code
 jupyter notebook Perceptron_Neural_Network.ipynb
 ```
 Run all cells to generate the synthetic data, train the Perceptron model, and visualize the results.
-
-
-## 📓 Notebook Overview
-
-The notebook is divided into several sections:
-
-- Data Generation: Creates a synthetic dataset with two features and two classes.
-
-- Data Preview: Displays a sample of the generated data and their corresponding labels.
-
-- Label Conversion: Converts the labels from {0, 1} to {-1, 1} to be compatible with the Perceptron.
-
-- Sign Function: Defines a helper function to return the sign of a value.
-
-- Perceptron Model: Implements the Perceptron model class, which includes weight initialization and the forward pass.
-
-- Optimizer: Implements an optimizer to update the model weights and bias.
-
-- Training and Visualization: Trains the Perceptron model and visualizes the decision boundary along with the data points.
-  
-
-## 📊 Results
-
-The notebook outputs a plot showing the data points and the decision boundary learned by the Perceptron. This visualization helps to understand how the Perceptron classifies the data.
-
-Here is a sample visualization of decision boundary:
-![Result](https://github.com/user-attachments/assets/80ac15bc-b958-45ee-a831-119805844129)
