@@ -64,4 +64,5 @@ The notebook is divided into several sections:
 ## 📊 Results
 
 The notebook outputs a plot showing the data points and the decision boundary learned by the Perceptron. This visualization helps to understand how the Perceptron classifies the data.
-
+Here is a sample visualization of decision boundary:
+![Result](https://github.com/user-attachments/assets/80ac15bc-b958-45ee-a831-119805844129)
