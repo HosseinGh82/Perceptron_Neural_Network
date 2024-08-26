@@ -1,6 +1,6 @@
 # 🧠 Perceptron Neural Network
 
-This repository contains the implementation of a simple Perceptron neural network. The Perceptron is a foundational concept in machine learning and serves as the building block for more complex neural networks.
+This repository contains the implementation of a **simple Perceptron neural network**. The Perceptron is a foundational concept in **machine learning** and serves as the building block for more complex neural networks.
 
 
 ## 📝 Introduction
@@ -12,26 +12,26 @@ The purpose of this project is to demonstrate the basic workings of a Perceptron
 
 The notebook is divided into several sections:
 
-- Data Generation: Creates a synthetic dataset with two features and two classes.
+- **Data Generation:** Creates a synthetic dataset with two features and two classes.
 
-- Data Preview: Displays a sample of the generated data and their corresponding labels.
+- **Data Preview:** Displays a sample of the generated data and their corresponding labels.
 
-- Label Conversion: Converts the labels from {0, 1} to {-1, 1} to be compatible with the Perceptron.
+- **Label Conversion:** Converts the labels from {0, 1} to {-1, 1} to be compatible with the Perceptron.
 
-- Sign Function: Defines a helper function to return the sign of a value.
+- **Sign Function:** Defines a helper function to return the sign of a value.
 
-- Perceptron Model: Implements the Perceptron model class, which includes weight initialization and the forward pass.
+- **Perceptron Model:** Implements the Perceptron model class, which includes weight initialization and the forward pass.
 
-- Optimizer: Implements an optimizer to update the model weights and bias.
+- **Optimizer:** Implements an optimizer to update the model weights and bias.
 
-- Training and Visualization: Trains the Perceptron model and visualizes the decision boundary along with the data points.
+- **Training and Visualization:** Trains the Perceptron model and visualizes the decision boundary along with the data points.
   
 
 ## 📊 Results
 
 The notebook outputs a plot showing the data points and the decision boundary learned by the Perceptron. This visualization helps to understand how the Perceptron classifies the data.
 
-Here is a sample visualization of decision boundary:
+Here is a sample visualization of **decision boundary**:
 ![Result](https://github.com/user-attachments/assets/80ac15bc-b958-45ee-a831-119805844129)
 
 
