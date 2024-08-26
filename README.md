@@ -28,23 +28,26 @@ You can install these dependencies using `pip`:
 
 ```bash
 pip install numpy matplotlib scikit-learn
+```
 
-
-🚀 Usage
+## 🚀 Usage
 Clone the repository and navigate to the project directory:
 
-bash
+```bash
 Copy code
 git clone https://github.com/yourusername/perceptron-neural-network.git
 cd perceptron-neural-network
+```
+
 Open the Jupyter notebook:
 
-bash
+```bash
 Copy code
 jupyter notebook Perceptron_Neural_Network.ipynb
+```
 Run all cells to generate the synthetic data, train the Perceptron model, and visualize the results.
 
-📓 Notebook Overview
+## 📓 Notebook Overview
 The notebook is divided into several sections:
 
 📊 Data Generation: Creates a synthetic dataset with two features and two classes.
@@ -54,9 +57,7 @@ The notebook is divided into several sections:
 🏗️ Perceptron Model: Implements the Perceptron model class, which includes weight initialization and the forward pass.
 🔧 Optimizer: Implements an optimizer to update the model weights and bias.
 🎨 Training and Visualization: Trains the Perceptron model and visualizes the decision boundary along with the data points.
-📊 Results
+
+## 📊 Results
 The notebook outputs a plot showing the data points and the decision boundary learned by the Perceptron. This visualization helps to understand how the Perceptron classifies the data.
 
-
-🤝 Contributing
-Contributions are welcome! Please feel free to submit a pull request or open an issue for any suggestions or improvements.
