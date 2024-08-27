@@ -55,7 +55,6 @@ pip install numpy matplotlib scikit-learn
 Clone the repository and navigate to the project directory:
 
 ```bash
-Copy code
 git clone https://github.com/yourusername/perceptron-neural-network.git
 cd perceptron-neural-network
 ```
@@ -63,7 +62,6 @@ cd perceptron-neural-network
 Open the **Jupyter notebook**:
 
 ```bash
-Copy code
 jupyter notebook Perceptron_Neural_Network.ipynb
 ```
 Run all cells to generate the synthetic data, train the Perceptron model, and visualize the results.
